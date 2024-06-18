@@ -1,0 +1,24 @@
+{
+    "name": "isubero/php-cli-demo",
+    "description": "PHP command-line tool demo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Isubero\\PhpCliDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isaías Subero",
+            "email": "info@isaiassubero.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/console": "^7.1"
+    },
+    "bin": [
+        "bin/php-cli-demo"
+    ]
+}
